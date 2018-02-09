@@ -1,0 +1,391 @@
+html a {
+  color: #000;
+}
+
+html a:hover {
+  text-decoration: none;
+  color: rgb(234, 202, 84);
+}
+
+#body {
+  background-color: rgb(8,10,189);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  padding-top: 1.8%;
+  border;
+}
+
+header, footer {
+  background-color: rgb(8,10,189);
+  text-align: center;
+  color: white;
+  border: 1.5px solid white;
+}
+
+header img:hover {
+  opacity: .5;
+  text-decoration: none;
+}
+
+#title, #title2 {
+  margin-top: 1.5%;
+  font-family: 'Graduate', cursive;
+  font-size: 1rem;
+  color: rgb(234, 202, 84);
+  text-shadow: 2px 2px rgba(128,128,128, .4);
+  padding: 1.5%;
+}
+
+#logo {
+  width: 120px;
+}
+
+#title:hover, #title2:hover {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  background-color: rgb(234, 202, 84);
+  font-size: .65rem;
+}
+
+nav ul li a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(8,10,189);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+#main {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5%;
+}
+
+#main .col-lg {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main2 {
+  background-color: rgb(8,10,189);
+  padding: 1.8%;
+}
+
+#main3 {
+  padding: 3%;
+  background-color: white;
+}
+
+#move {
+  margin-top: 3%;
+}
+
+.card-header {
+  color: rgb(8,10,189);
+  background-color: rgb(234, 202, 84);
+}
+
+.card {
+  margin-top: 1.5%;
+}
+
+#heading1 {
+  background-color: rgb(8,10,189);
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  margin-top: 1.5%;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: .75rem;
+}
+
+#heading1 a {
+  color: rgb(234, 202, 84);
+}
+
+#heading1 a:hover {
+  color: white;
+}
+
+#btn {
+  background-color: white;
+  font-size: 16px;
+  color: rgb(8,10,189);
+}
+
+#btn:hover {
+  background-color: rgb(234, 202, 84);
+  color: white;
+}
+
+
+#heading2 {
+  background-color: rgb(234, 202, 84);
+  color: rgb(8,10,189);
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  margin-top: 1.5%;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: .75rem;
+}
+
+#heading2 a {
+  color: rgb(8,10,189);
+}
+
+#heading2 a:hover {
+  color: white;
+}
+
+#heading3 {
+  background-color: rgb(8,10,189);
+  color: rgb(234, 202, 84);
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  margin-top: 1.5%;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: .75rem;
+}
+
+
+#heading4 {
+  color: rgb(234, 202, 84);
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  margin-top: 1.5%;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: .75rem;
+}
+
+#heading4 a {
+  color: rgb(234, 202, 84);
+}
+
+#heading4 a:hover {
+  color: rgb(8,10,189);
+}
+
+#heading5 {
+  color: rgb(8,10,189);
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  margin-top: 1.5%;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: .75rem;
+  padding: 2%;
+}
+
+#heading5 a {
+  color: rgb(234, 202, 84);
+}
+
+#heading5 a:hover {
+  color: rgb(8,10,189);
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  font-size: .65rem;
+  color: rgb(8,10,189);
+  padding: .5%;
+  background-color: rgb(234, 202, 84);
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+footer a {
+  color: rgb(8,10,189);
+}
+
+footer a:hover {
+  color: rgb(234, 202, 84);
+}
+
+/* About Styles */
+
+#main {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+
+
+/* Schedule Styles */
+
+#main {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+
+
+/* Media Queries For Responsive Design*/
+
+/*Mobile Medium (cellphones, 375px and up)*/
+
+
+@media (min-width: 375px) {
+
+  #title, #title2 {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    font-size: .62rem;
+  }
+
+ }
+
+/*Medium devices (tablets, 506px and up)*/
+
+@media (min-width: 506px) {
+
+  nav {
+    font-size: 1rem;
+  }
+
+  #title, #title2 {
+    margin-top: -3%;
+    font-size: 2.5rem;
+  }
+
+  #logo {
+    width: 150px;
+  }
+
+  #aboutImg1 {
+    width: 390px;
+    margin-top: 3%;
+  }
+
+  #aboutImg2 {
+    width: 400px;
+    margin-top: 5%;
+  }
+
+
+
+
+header {
+  height: 80px;
+}
+
+  .card-text {
+    font-size: 1rem;
+    padding: 1%;
+  }
+
+
+iframe {
+  width: 650px;
+  height: 450px;
+}
+
+
+  footer {
+    font-size: .7rem;
+  }
+
+  /* BTSB Styles */
+
+  #carousel {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  nav {
+    font-size: 1rem;
+  }
+
+  #title, #title2 {
+    font-size: 3rem;
+  }
+
+  #logo {
+    width: 180px;
+  }
+
+  header {
+    height: 85px;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    padding: 1%;
+  }
+
+  footer {
+    font-size: .7rem;
+  }
+
+  /* BTSB Styles */
+
+  #carousel {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  nav {
+    font-size: 1rem;
+  }
+
+  #title, #title2 {
+    font-size: 3rem;
+  }
+
+  #logo {
+    width: 180px;
+  }
+
+  header {
+    height: 85px;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    padding: 1%;
+  }
+
+  footer {
+    font-size: .7rem;
+  }
+
+  #carousel {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
