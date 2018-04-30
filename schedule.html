@@ -26,29 +26,47 @@
   <nav>
     <ul class="nav nav-pills nav-fill">
       <li class="nav-item">
-        <a class="nav-link" href="home.html"><i class="fas fa-home"></i></a>
+        <div class="dropdown"> <a class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="about.html">About </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="about.html">Misson Statement</a>
+            <a class="dropdown-item" href="board.html">Board Members</a>
+            <a class="dropdown-item" href="bylaws.html">ByLaws</a>
+            <a class="dropdown-item" href="contact.html">Contact Us</a>
+          </div>
+        </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about.html">Mission</a>
+        <div class="dropdown"><a class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Team Central </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="schedule.html">Schedule</a>
+            <a class="dropdown-item" href="roster.html">Team Roster</a>
+            <a class="dropdown-item" href="registration.html">Registration</a>
+            <a class="dropdown-item" href="announcements.html">Announcements</a>
+          </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="schedule.html">Schedule</a>
+        <div class="dropdown"><a class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">Beyond The Scoreboard </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="bts.html">Fundraisers | Events</a>
+          </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="sponsorship.html">Sponsorship</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="announcements.html"><i class="fas fa-bullhorn"></i></a>
-      </li>
     </ul>
   </nav>
+  <!-- Navigation End -->
 
 
 <div id="main">
   <div id="heading5">
     <h3>Virginia Flights Games & Practices 2018</h3>
+    <hr style="background-color: rgb(234, 202, 84);">
     <br>
-      <iframe src="https://calendar.google.com/calendar/embed?title=Virginia%20Flights%20Games%20%26%20Practices%20&amp;showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=asot2l6asu1mf5qph23ulov1ns%40group.calendar.google.com&amp;color=%23B1365F&amp;ctz=America%2FNew_York" style="border-width:0" width="250" height="400" frameborder="0" scrolling="no"></iframe>  </div>
+      <iframe src="https://calendar.google.com/calendar/embed?title=Virginia%20Flights%20Games%20%26%20Practices%20&amp;showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=asot2l6asu1mf5qph23ulov1ns%40group.calendar.google.com&amp;color=%23B1365F&amp;ctz=America%2FNew_York" style="border-width:0" width="250" height="400" frameborder="0" scrolling="no"></iframe>
+      <br><br>
+      <button type="button" class="btn btn-light" id="scheduleBtn" style="border-color: rgb(234, 202, 84);"><a href="Game_Schedule.pdf" download="Virginia Flights 2018 Game Schedule"> Download Game Schedule </a></button>
+    </div>
   </div>
 
     <div class="row" id="main2">
